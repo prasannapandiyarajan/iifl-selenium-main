@@ -51,8 +51,5 @@
   "pythonSel/test_e2eTestFramework.py::test_watch_list_tab": true,
   "pythonSel/test_e2eTestFramework.py::test_watchlist_scenarios[HCL-INSYS-BE-pass]": true,
   "pythonSel/test_e2eTestFramework.py::test_order_window": true,
-  "pythonSel/test_e2eTestFramework.py::test_watchlist_scenarios[ACC-EQ-pass]": true,
-  "pythonSel/test_e2eTestFramework.py::test_watchlist_scenarios[SENSEX-pass]": true,
-  "pythonSel/test_e2eTestFramework.py::test_login_otp[123456-pass]": true,
   "pythonSel/test_e2eTestFramework.py::test_login_scenarios[11882058-Admin@111-pass]": true
 }

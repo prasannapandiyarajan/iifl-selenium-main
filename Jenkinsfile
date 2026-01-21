@@ -35,7 +35,7 @@ pipeline {
                         set -e
 
                         echo "Building Docker Image"
-                        docker build -t $IMAGE_NAME .
+                        docker build --no-cache -t $IMAGE_NAME .
 
                         echo "Image created successfully"
                         '''
