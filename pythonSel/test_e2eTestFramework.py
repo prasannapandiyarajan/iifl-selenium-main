@@ -250,7 +250,7 @@ test_results = []
 @pytest.mark.parametrize("username,password,expected", [
     # ("TEST109", "Admin@123", "pass"),
     # ("TEST110", "Test@005", "fail"),
-    ("11882058", "Admin@11", "pass"),
+    ("S0007", "Iifl@12345", "pass"),
 ])
 def test_login_scenarios(browserInstance, username, password, expected):
     driver = browserInstance
