@@ -18,7 +18,7 @@ class otpPage(BrowserUtils):
 
     def enter_input(self, otp: str) -> bool:
         try:
-            # 👉 1. Click Get Mobile OTP
+            # # 👉 1. Click Get Mobile OTP
             btn = WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located((By.LINK_TEXT, "Get Mobile OTP"))
             )

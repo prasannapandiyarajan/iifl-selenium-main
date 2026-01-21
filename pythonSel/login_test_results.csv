@@ -1,3 +1,3 @@
 username,password,conformpassword,pannumber,otp,scrip_name,Watchlist_tab,watchlist_bottom_tab,Testing_Area,Page,order_type,validity,expected,actual,status
 11882058,Admin@11,,,,,,,,,,,pass,login success,pass
-,,,,123456,,,,,,,,pass,OTP validated successfully,pass
+,,,,123456,,,,,,,,pass,error shown,fail

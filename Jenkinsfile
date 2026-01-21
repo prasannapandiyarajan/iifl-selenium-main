@@ -54,19 +54,14 @@ pipeline {
                 script{
                     echo "Docker Container creation & running Tests"
 
-                    try{
+                    catchError(buildResult: 'FAILURE', stageResult: 'FAILURE') {
                         sh '''
                         echo "Running Docker container"
                         docker run --name $CONTAINER_NAME $IMAGE_NAME
                         '''
-
-                        echo "Tests are Completed Successfully"
-                    } catch(err){
-                        echo "Docker container execution FAILED"
-                        echo "Error details: ${err}"
-                        currentBuild.result = 'FAILURE'
-                        error("Stopping pipeline due to test execution failure")
                     }
+
+                    echo "Tests execution stage completed (pass or fail)"
                 }
             }
         }
