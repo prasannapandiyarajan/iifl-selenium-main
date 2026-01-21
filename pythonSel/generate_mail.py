@@ -223,7 +223,7 @@ def send_mail(subject: str,
 # -------------------------------
 # Read CSV
 # -------------------------------
-df = pd.read_csv("D:\Prasanna-work\IIFL\IIFL_selenium-main\pythonSel\login_test_results.csv")
+df = pd.read_csv("pythonSel\login_test_results.csv")
 print(df)
 df.columns = df.columns.str.strip().str.lower()
 
