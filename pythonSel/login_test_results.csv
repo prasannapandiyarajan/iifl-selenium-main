@@ -1,0 +1,22 @@
+username,password,conformpassword,pannumber,otp,scrip_name,Watchlist_tab,watchlist_bottom_tab,Testing_Area,Page,order_type,validity,expected,actual,status
+11882058,Admin@11,,,,,,,,,,,pass,login success,pass
+,,,,123456,,,,,,,,pass,OTP validated successfully,pass
+,,,,,,,,funds_tab,Funds,,,pass,clicked successfully,pass
+,,,,,,,,add_withdrawal_fund,Funds,,,pass,clicked successfully,pass
+,,,,,,,,funds_available,Funds,,,pass,clicked successfully,pass
+,,,,,,,,collateral_available,Funds,,,pass,XPath not found or invalid xpath,fail
+,,,,,,,,explore_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,products_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,mutual_funds_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,ipo_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,global_investing_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,tax_filling_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,nps_online_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,grobox_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,smallcase_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,tradebox_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,instaoptions_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,more_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,form_format_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,offer_to_tab,Explore,,,pass,clicked successfully,pass
+,,,,,,,,offer_for_sale_tab,Explore,,,pass,clicked successfully,pass
