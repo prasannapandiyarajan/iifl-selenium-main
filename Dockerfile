@@ -9,7 +9,7 @@ WORKDIR /home/seluser/project
 COPY . .
 
 # Install Python deps
-RUN pip3 install selenium pytest pytest-html beautifulsoup4
+RUN pip3 install selenium pytest pytest-html beautifulsoup4 pandas
 
 # Default command to run tests
 CMD ["bash", "run_tests.sh"]
