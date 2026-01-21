@@ -18,6 +18,7 @@
   "pythonSel/test_e2eTestFramework.py::test_login_scenarios[11882058-Admin@001-pass]",
   "pythonSel/test_e2eTestFramework.py::test_login_scenarios[11882058-Admin@01-pass]",
   "pythonSel/test_e2eTestFramework.py::test_login_scenarios[11882058-Admin@11-pass]",
+  "pythonSel/test_e2eTestFramework.py::test_login_scenarios[11882058-Admin@111-pass]",
   "pythonSel/test_e2eTestFramework.py::test_login_scenarios[HCL-INSYS-BE-pass]",
   "pythonSel/test_e2eTestFramework.py::test_login_scenarios[TEST109-Admin@123-pass]",
   "pythonSel/test_e2eTestFramework.py::test_login_scenarios[TEST109-Nav123-fail]",
